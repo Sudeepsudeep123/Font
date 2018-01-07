@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    tools:context="dev.edmt.advancedsearchbar.MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@android:color/holo_orange_dark" />
+
+    <com.miguelcatalan.materialsearchview.MaterialSearchView
+        android:id="@+id/search_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        app:searchBackIcon="@drawable/ic_action_navigation_arrow_back_inverted"
+        app:searchBackground="@android:color/holo_orange_dark"
+        app:searchCloseIcon="@drawable/ic_action_navigation_close_inverted"
+        app:searchSuggestionBackground="@color/colorPrimary"
+        app:searchSuggestionIcon="@drawable/ic_suggestion" />
+
+    <ExpandableListView
+        android:id="@+id/lstView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:childDivider="#DCDCDC"
+        android:divider="#00000000"
+        android:dividerHeight="1dp"
+        />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/plus1"
+        app:backgroundTint="@android:color/holo_orange_dark" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabGoogle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="90dp"
+        android:src="@drawable/m"
+        app:backgroundTint="?android:attr/colorPressedHighlight"
+        android:visibility="invisible"
+        android:layout_alignStart="@+id/fab" />
+
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/txtSystem"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:hint="System Font"
+        android:layout_marginLeft="10px"
+        android:layout_marginRight="10px"
+        android:visibility="invisible"
+        android:layout_marginBottom="32dp"
+        android:textSize="20dp"
+        android:background="@null"
+        android:layout_above="@+id/txtGoogle"
+        android:layout_alignEnd="@+id/txtGoogle" />
+
+    <EditText
+        android:id="@+id/txtGoogle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="109dp"
+        android:layout_marginRight="10dp"
+        android:hint="Google Font"
+        android:textSize="20dp"
+        android:visibility="invisible"
+        android:background="@null"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@+id/fabSystem" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabSystem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/apple"
+        app:backgroundTint="@android:color/holo_red_dark"
+        android:visibility="invisible"
+        android:layout_alignBottom="@+id/txtSystem"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>
+
+</RelativeLayout>

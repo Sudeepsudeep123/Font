@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:clickable="true"
+    android:background="@color/background"
+    tools:context="dev.edmt.advancedsearchbar.Options">
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:id="@+id/rel"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btnTry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btnDetails"
+            android:layout_alignParentStart="true"
+            android:width="5dp"
+            android:background="#ffffff"
+            android:drawableLeft="@drawable/fonts"
+            android:padding="20dp"
+            android:text="     Try Fonts"
+            android:textAlignment="viewStart" />
+
+        <Button
+            android:id="@+id/btnInstall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btnShare"
+            android:layout_alignParentStart="true"
+            android:width="5dp"
+            android:drawableLeft="@drawable/install"
+            android:background="#ffffff"
+            android:padding="20dp"
+            android:text="     Install"
+            android:textAlignment="viewStart" />
+
+        <Button
+            android:id="@+id/btnShare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btnCancel"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:drawableLeft="@drawable/share"
+            android:background="#ffffff"
+            android:padding="20dp"
+            android:text="     Share"
+            android:textAlignment="viewStart" />
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/cancel"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:background="#ffffff"
+
+            android:padding="20dp"
+            android:text="     Cancel"
+            android:textAlignment="viewStart" />
+
+        <Button
+            android:id="@+id/btnDetails"
+            android:drawableLeft="@drawable/details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btnInstall"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:background="#ffffff"
+            android:text="     Detail"
+            android:padding="20dp"
+            android:textAlignment="viewStart" />
+    </RelativeLayout>
+</LinearLayout>
+

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/sudeepbajracharya/.android/build-cache/8395d6a03ea684de8039fe16cbc38d6324c3f39c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="/Users/sudeepbajracharya/AndroidStudioProjects/AdvancedSearchBar/app/build/intermediates/pre-dexed/debug/classes_8b9e0182e437508bda90a59567a201b516f2767b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sudeepbajracharya/.android/build-cache/86c847095b9b21728c7feaa316832ec6abf906d4/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7ed87c7f833e46dacace668e63cb8c4b67cb3172">
+        <dex dex="/Users/sudeepbajracharya/AndroidStudioProjects/AdvancedSearchBar/app/build/intermediates/pre-dexed/debug/classes_7882b7e3900dac576d30e87e646df0959c57c456.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sudeepbajracharya/.android/build-cache/f830380e3580cbdd2bcf7ccbf29d41c63c9c4fc6/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="/Users/sudeepbajracharya/AndroidStudioProjects/AdvancedSearchBar/app/build/intermediates/pre-dexed/debug/classes_8dd1be942a0f2e8940849d89e50f710e5d14ae04.jar" />
+    </item>
+
+</items>
